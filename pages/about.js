@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="Business & Digital Agency">
+        <Layout pageTitle="About | Developer Diaries">
             <Header heroLogo="/assets/images/logo/logo.svg"
             headerClass="header__white"
             menuClass="main-menu-3"

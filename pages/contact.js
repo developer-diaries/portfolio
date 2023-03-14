@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 const ContactPage = () => {
     return (
-        <Layout pageTitle="Şirket | Business & Digital Agency">
+        <Layout pageTitle="Contact | Developer Diaries">
             <PageHeader title="Contact us" crumbTitle="Contact us"/>
             <Header heroLogo="/assets/images/logo/logo.svg"
             headerClass="header__white"

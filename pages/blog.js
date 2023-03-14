@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 const BlogPage = () => {
     return (
-        <Layout pageTitle="Şirket | Business & Digital Agency">
+        <Layout pageTitle="DeveloperDiaries | Business & Digital Agency">
             <PageHeader title="Blog" crumbTitle="Blog"/>
             <Header heroLogo="/assets/images/logo/logo.svg"
             headerClass="header__white"

@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const TeamPage = () => {
     return (
-        <Layout pageTitle="usiness & Digital Agency">
+        <Layout pageTitle="Portfolio | Developer Diaries">
             <PageHeader title="Portfolio" crumbTitle="Portfolio"/>
             <Header heroLogo="/assets/images/logo/logo.svg"
             headerClass="header__white"

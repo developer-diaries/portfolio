@@ -8,7 +8,7 @@ import LetsWork from '../components/LetsWork';
 
 const ServicesPage = () => {
     return (
-        <Layout pageTitle="Business & Digital Agency">
+        <Layout pageTitle="Services | Developer Diaries">
             <Header heroLogo="/assets/images/logo/logo.svg"
                 headerClass="header__white"
                 menuClass="main-menu-3"
