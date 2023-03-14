@@ -12,7 +12,7 @@ import Footer from "../components/Footer";
 
 const HomeOne = () => {
   return (
-    <Layout pageTitle="Şirket | Business & Digital Agency">
+    <Layout pageTitle="Developer Diaries | Business & Digital Agency">
        <Header heroLogo="/assets/images/logo/logo.svg"
             headerClass="header__white"
             menuClass="main-menu-3"

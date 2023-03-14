@@ -15,8 +15,7 @@ const Contact = () => {
                                     </div>
                                     <div className="contact__info-title">                                        
                                         <h5>Office Address</h5>
-                                        <p>66 Broklyn Street, New York
-                                            United States of America</p>
+                                        <p>Strijkviertel 63 <br></br> 3454 PK De Meern</p>
                                     </div>
                                 </div>
                                 <div className="contact__info-content d-flex mb-30">
@@ -44,13 +43,13 @@ const Contact = () => {
                                     <div className="contact__info-title">
                                         <h5>Email us</h5>
                                         <p>
-                                            <Link href="mailto:info@example.com">
-                                                <a>info@example.com</a>
+                                            <Link href="mailto:info@developerdiaries.dev">
+                                                <a>info@developerdiaries.dev</a>
                                             </Link>
                                         </p>
                                         <p>
-                                            <Link href="mailto:info@example.com">
-                                                <a>info@example.com</a>
+                                            <Link href="mailto:info@eurotelconsulting.nl">
+                                                <a>info@eurotelconsulting.nl</a>
                                             </Link>
                                         </p>
                                     </div>
@@ -61,7 +60,7 @@ const Contact = () => {
                             <div className="contact__title">
                                 <h2 className="section__title">
                                     <span>Ready to get our</span>
-                                    marketing services
+                                    development services
                                 </h2> 
                                 <div className="contact__title-icon">
                                     <Link href="#contact">

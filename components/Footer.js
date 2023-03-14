@@ -114,14 +114,13 @@ const Footer = () => {
                                 </div>
                                 <div className="footer__widget-info">
                                     <div className="footer__widget-address">
-                                        <p>66 Broklyn Street, New York
-                                            United States of America</p>
+                                        <p>Strijkviertel 63 <br></br> 3454 PK De Meern</p>
                                     </div>
                                     <div className="footer__widget-phone d-flex align-items-center">
                                         <i className="fa-solid fa-phone"></i>
                                         <p>
                                             <Link href="tel:+1166442200">
-                                                <a>+11 66 44 22 00</a>
+                                                <a>+31 6 54723535</a>
                                             </Link>
                                         </p>
                                     </div>
@@ -129,7 +128,7 @@ const Footer = () => {
                                         <i className="fa-solid fa-paper-plane"></i>
                                         <p>
                                             <Link href="mailto:info@example.com">
-                                                <a>info@example.com</a>
+                                                <a>info@eurotelconsulting.nl</a>
                                             </Link>
                                         </p>
                                     </div>
@@ -142,7 +141,7 @@ const Footer = () => {
                             <div className="footer__copyright">
                                 <p>Copyright © 2023
                                     <Link href="">
-                                        <a>Şirket</a>
+                                        <a>Developer Diaries</a>
                                     </Link>
                                 </p>
                             </div>
