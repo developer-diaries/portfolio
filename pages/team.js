@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import PageHeader from "../components/PageHeader";
-import TeamMember from "../components/TeamMember";
 import LetsWork from "../components/LetsWork";
 import Footer from "../components/Footer";
 
