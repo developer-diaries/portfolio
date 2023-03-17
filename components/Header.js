@@ -33,11 +33,11 @@ const Header = ({headerClass, menuClass, sideMenuClass, heroLogo}) => {
                     <Row className="align-items-center">
                         <Col xxl={5} xl={4} lg={3} md={5} xs={6}>
                             <div className="logo">
-                            {/* <Link href="/">
+                            <Link href="/">
                                 <a>
                                     <img src={heroLogo} alt="logo" />
                                 </a>
-                            </Link> */}
+                            </Link>
                             </div>
                         </Col>
                         <Col xxl={7} xl={8} lg={9} md={7} xs={6} className="d-lg-block">
