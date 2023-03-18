@@ -13,7 +13,7 @@ const ServicesPage = () => {
                 headerClass="header__white"
                 menuClass="main-menu-3"
             />
-            <PageHeader title="Portfolio" crumbTitle="Portfolio" />
+            <PageHeader title="Services" crumbTitle="Services" />
             <main>
                 <Services />
                 <LetsWork extraClass={'pt-60'} />
