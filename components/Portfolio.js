@@ -45,7 +45,7 @@ const PORTFOLIO_ALL = [
   ];
 
 
-const PORTFOLIO_UI = [
+const PORTFOLIO_MOBILE = [
     {
       portfolioImg:"/assets/images/portfolio/portfolio-5.jpg",
       portfolioCat:"Marketing",
@@ -94,7 +94,7 @@ const PORTFOLIO_UI = [
     },
   ];
 
-  const PORTFOLIO_DEVELOPMENT = [    
+  const PORTFOLIO_FRONTEND = [    
     {
       portfolioImg:"/assets/images/portfolio/portfolio-5.jpg",
       portfolioCat:"Marketing",
@@ -190,7 +190,7 @@ const Services = () => {
                           </Tab>
                           <Tab eventKey="ui" title="UI/UX Design">
                             <Row className="mt-150">
-                            {PORTFOLIO_UI.map(
+                            {PORTFOLIO_MOBILE.map(
                                 ({portfolioImg, portfolioCat, portfolioTitle, portfolioLink}, index) => (
                                   <PortfolioItem
                                   key={index}
@@ -220,7 +220,7 @@ const Services = () => {
                           </Tab>
                           <Tab eventKey="development" title="Development">
                             <Row className="mt-150">
-                            {PORTFOLIO_DEVELOPMENT.map(
+                            {PORTFOLIO_FRONTEND.map(
                                 ({portfolioImg, portfolioCat, portfolioTitle, portfolioLink}, index) => (
                                   <PortfolioItem
                                   key={index}

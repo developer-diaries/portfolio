@@ -15,7 +15,7 @@ const AboutPage = () => {
             />      
             <PageHeader title="About us" crumbTitle="About us"/>
             <main>
-                <About subTitle="We are "
+                <About subTitle="Welcome "
                 titleFirst="We are here to make your"
                 titleSecond="product look more elegant and stylish"
                 />     
