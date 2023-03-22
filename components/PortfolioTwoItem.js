@@ -12,7 +12,7 @@ const PortfolioTwoItem = ({portfolioImg, portfolioLink, portfolioTitle, portfoli
                 <div className="portfolio__text-2">
                     <h3>
                         <Link href={portfolioLink}>
-                            <a>{portfolioTitle}</a>
+                            <a target="_blank" >{portfolioTitle}</a>
                         </Link>
                     </h3>  
                     <p>{portfolioText}</p>                                 
