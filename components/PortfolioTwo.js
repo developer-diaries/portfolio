@@ -63,27 +63,33 @@ import PortfolioTwoItem from './PortfolioTwoItem';
 
   const PORTFOLIO_FRONTEND = [
     {
-      portfolioImg:"/assets/images/portfolio/dijitalurun.png",
+      portfolioImg:"/assets/images/portfolio/dijitalurun.jpeg",
       portfolioTitle:"Dijital Urun for Gamers",
-      portfolioLink:"https://dijitalurun.com/",
+      portfolioLink:"https://www.dijitalurun.com/",
       portfolioText:"An E-commerce platform developed with reactjs",
     },
     {
-      portfolioImg:"/assets/images/portfolio/etkinlika.png",
+      portfolioImg:"/assets/images/portfolio/etkinlika.jpeg",
       portfolioTitle:"Etkinlika - Digitan Event Application",
-      portfolioLink:"https://etkinlika.com/",
+      portfolioLink:"https://www.etkinlika.com/",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/umumdiesel.png",
+      portfolioImg:"/assets/images/portfolio/umumdiesel.jpeg",
       portfolioLink:"https://www.umumdiesel.com",
       portfolioTitle:"Umum Diesel - Diesel Unit Pump Producer",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/hessan.png",
+      portfolioImg:"/assets/images/portfolio/hessan.jpeg",
       portfolioLink:"https://www.hes-san.com/",
       portfolioTitle:"Hessan - Manufacturer",
+      portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
+    },
+    {
+      portfolioImg:"/assets/images/portfolio/giez.jpeg",
+      portfolioLink:"https://www.giez.com.tr/",
+      portfolioTitle:"Giez E-Commerce",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     }
   ];
