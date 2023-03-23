@@ -6899,11 +6899,11 @@ textarea {
   margin-top: 90px;
 }
 .page__title-height {
-  min-height: 340px;
+  min-height: 240px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .page__title-height {
-    min-height: 340px;
+    min-height: 140px;
   }
 }
 .page__title-shape img {
