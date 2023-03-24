@@ -26,7 +26,7 @@ import PortfolioTwoItem from './PortfolioTwoItem';
       portfolioText:"Magfi helps you find groups in the most popular messaging and social media apps. You can either create and share your own group or join groups according to your interests.",
     },
     {
-      portfolioImg:"https://play-lh.googleusercontent.com/MYbk67SYwkCkMiuRIvSW6eXwJjRK-SdOYUfmpo1phDIiPlTWVxcm1KihXKlTpzQwW3U=w832-h470-rw",
+      portfolioImg:"/assets/images/portfolio/meram.jpeg",
       portfolioLink:"https://play.google.com/store/apps/details?id=com.devnet.meram",
       portfolioTitle:"Meram Municipality",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
@@ -34,39 +34,39 @@ import PortfolioTwoItem from './PortfolioTwoItem';
   ];
 
 
-  const PORTFOLIO_MARKETING = [
-    {
-      portfolioImg:"/assets/images/portfolio/p-1.jpg",
-      portfolioLink:"/single-portfolio",
-      portfolioTitle:"UI/UX Design",
-      portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/p-2.jpg",
-      portfolioLink:"/single-portfolio",
-      portfolioTitle:"Web Development",
-      portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/p-4.jpg",
-      portfolioLink:"/single-portfolio",
-      portfolioTitle:"Digital Marketing",
-      portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/p-6.jpg",
-      portfolioLink:"/single-portfolio",
-      portfolioTitle:"Digital Marketing",
-      portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
-    }
-  ];
+  // const PORTFOLIO_MARKETING = [
+  //   {
+  //     portfolioImg:"/assets/images/portfolio/p-1.jpg",
+  //     portfolioLink:"/single-portfolio",
+  //     portfolioTitle:"UI/UX Design",
+  //     portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
+  //   },
+  //   {
+  //     portfolioImg:"/assets/images/portfolio/p-2.jpg",
+  //     portfolioLink:"/single-portfolio",
+  //     portfolioTitle:"Web Development",
+  //     portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
+  //   },
+  //   {
+  //     portfolioImg:"/assets/images/portfolio/p-4.jpg",
+  //     portfolioLink:"/single-portfolio",
+  //     portfolioTitle:"Digital Marketing",
+  //     portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
+  //   },
+  //   {
+  //     portfolioImg:"/assets/images/portfolio/p-6.jpg",
+  //     portfolioLink:"/single-portfolio",
+  //     portfolioTitle:"Digital Marketing",
+  //     portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
+  //   }
+  // ];
 
-  const PORTFOLIO_FRONTEND = [
+const PORTFOLIO_FRONTEND = [
     {
       portfolioImg:"/assets/images/portfolio/dijitalurun.jpeg",
       portfolioTitle:"Dijital Urun for Gamers",
       portfolioLink:"https://www.dijitalurun.com/",
-      portfolioText:"An E-commerce platform developed with reactjs",
+      portfolioText:"An e-commerce application that sells game coupons is a digital platform where customers can purchase coupons or digital codes for various games.",
     },
     {
       portfolioImg:"/assets/images/portfolio/etkinlika.jpeg",
@@ -89,12 +89,18 @@ import PortfolioTwoItem from './PortfolioTwoItem';
     {
       portfolioImg:"/assets/images/portfolio/giez.jpeg",
       portfolioLink:"https://www.giez.com.tr/",
-      portfolioTitle:"Giez E-Commerce",
+      portfolioTitle:"Giez - Women Clothes",
+      portfolioText:"An e-commerce application is dedicated to selling a variety of women's clothing items, providing users with a convenient way to browse, purchase, and receive the latest fashion trends.",
+    },
+    {
+      portfolioImg:"/assets/images/portfolio/eurotel.jpeg",
+      portfolioLink:"https://www.eurotelconsulting.nl/",
+      portfolioTitle:"Eurotel Consulting Corporate",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     }
   ];
 
-  PORTFOLIO_ALL = PORTFOLIO_ALL.concat(PORTFOLIO_MOBILE,PORTFOLIO_FRONTEND,PORTFOLIO_MARKETING)
+  PORTFOLIO_ALL = PORTFOLIO_ALL.concat(PORTFOLIO_MOBILE,PORTFOLIO_FRONTEND,/*PORTFOLIO_MARKETING*/)
 
 
 const PortfolioTwo = ({extraClass}) => {
@@ -111,8 +117,8 @@ const PortfolioTwo = ({extraClass}) => {
                 <Row>
                     <Col xl={12}>
                         <div className="portfolio__title-2 text-center">
-                            <SectionTitle subTitle="Portfolio"
-                            titleFirst="Some of our amazing works"
+                            <SectionTitle subTitle="Some of our amazing works"
+                            titleFirst="Portfolio"
                             />                                 
                         </div>
                     </Col>
@@ -124,7 +130,7 @@ const PortfolioTwo = ({extraClass}) => {
                         id="noanim-tab-example"
                         className="portfolio__menu portfolio__menu-2"
                         >
-                          <Tab eventKey="all" title="Show All">
+                          <Tab eventKey="all" title="All">
                             <Row className="mt-70">
                             {PORTFOLIO_ALL.map(
                                 ({portfolioImg, portfolioLink, portfolioTitle, portfolioText}, index) => (
@@ -170,7 +176,7 @@ const PortfolioTwo = ({extraClass}) => {
                             </Row>
                           </Tab>
                          
-                          <Tab eventKey="development" title="Development">
+                          {/* <Tab eventKey="development" title="Development">
                             <Row className="mt-70">
                             {PORTFOLIO_FRONTEND.map(
                                 ({portfolioImg, portfolioLink, portfolioTitle, portfolioText}, index) => (
@@ -184,7 +190,7 @@ const PortfolioTwo = ({extraClass}) => {
                               )
                             )} 
                             </Row>
-                          </Tab>
+                          </Tab> */}
                       </Tabs>  
                     </div> 
             </Container>      
