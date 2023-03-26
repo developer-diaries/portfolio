@@ -41,7 +41,7 @@ const Hero = () => {
                                 <img className="hero-t-shape-3" src="/assets/images/shape/hero/hero-t-shape-3.png" alt=""/>
                             </div>
                             <div className="hero__thumb-image">
-                                <img src="/assets/images/hero/hero-img.jpg" alt=""/>
+                                <img src="/assets/images/hero/hero-img.png" alt=""/>
                             </div>
                         </div>
                     </Col>

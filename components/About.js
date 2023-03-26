@@ -25,7 +25,7 @@ const About = ({subTitle, titleFirst, titleSecond}) => {
                                 <img className="about-s-2 d-none d-md-block" src="/assets/images/shape/about/about-s-2.png" alt=""/>
                             </div>
                             <div className="about__thumb-image">
-                                <img src="/assets/images/about/about-img.jpg" alt=""/>
+                                <img src="/assets/images/about/about-us.jpeg" alt=""/>
                             </div>
                         </div>
                     </Col>
