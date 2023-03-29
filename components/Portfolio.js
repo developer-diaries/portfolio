@@ -6,73 +6,74 @@ import SectionTitle from './SectionTitle';
 import PortfolioItem from './PortfolioItem';
 
 var PORTFOLIO_ALL = []
+const PORTFOLIO_MOBILE = [
+  {
+    portfolioImg:"/assets/images/portfolio/flexport.jpeg",
+    portfolioLink:"https://play.google.com/store/apps/details?id=net.flexport.alpha&hl=en",
+    portfolioTitle:"Flex-Port for Panasonic Turkey",
+    portfolioText:"The FlexPort Portal, which we have brought to life with the motto of “People before products”, is a professional platform where some fringe benefits and awards offered to you by our company are used through the portal through points. FlexPort World of Opportunities category, on the other hand, enables our employees and their families to benefit from more than 5000 products with special discounts.",
+  },
+  {
+    portfolioImg:"/assets/images/portfolio/magfi.jpeg",
+    portfolioLink:"https://play.google.com/store/apps/details?id=com.magfi.magfi",
+    portfolioTitle:"Magfi: WhatsApp & Telegram Groups",
+    portfolioText:"Magfi helps you find groups in the most popular messaging and social media apps. You can either create and share your own group or join groups according to your interests.",
+  },
+  {
+    portfolioImg:"/assets/images/portfolio/meram.jpeg",
+    portfolioLink:"https://play.google.com/store/apps/details?id=com.devnet.meram",
+    portfolioTitle:"Meram Municipality",
+    portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
+  },
+  {
+    portfolioImg:"/assets/images/portfolio/qrcode.jpeg",
+    portfolioLink:"#",
+    portfolioTitle:"QR Code Generator",
+    portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
+  }
 
-  const PORTFOLIO_MOBILE = [
-    {
-      portfolioImg:"https://i.ytimg.com/vi/qjzMsJmggUc/hqdefault.jpg",
-      portfolioLink:"https://play.google.com/store/apps/details?id=net.flexport.alpha&hl=en",
-      portfolioTitle:"Flex-Port for Panasonic Turkey",
-      portfolioText:"The FlexPort Portal, which we have brought to life with the motto of “People before products”, is a professional platform where some fringe benefits and awards offered to you by our company are used through the portal through points. FlexPort World of Opportunities category, on the other hand, enables our employees and their families to benefit from more than 5000 products with special discounts.",
-    },
-    {
-      portfolioImg:"https://i.ytimg.com/vi/s_uuGQJNOek/hqdefault.jpg",
-      portfolioLink:"https://play.google.com/store/apps/details?id=net.panaport.alpha",
-      portfolioTitle:"Viko-Port for Panasonic Turkey",
-      portfolioText:"As Panasonic Electric Works Turkey, the innovative and leading company in its sector, we add light and value to life with our products and solutions that provide comfort, security and energy efficiency, and aim to offer a better and more comfortable 'life' with human-oriented approaches. We consider contributing to the \"happiness\" and \"satisfaction\" of our valued customers as our main priority in all the activities we carry out for our sector, and we strive to realize practices that exceed customer expectations.",
-    },
-    {
-      portfolioImg:"https://play-lh.googleusercontent.com/ZUaj1zEZPW69iD18F_ztiB6IwGUtFZxdtZA-peLaSf9hW3ltrSBUfxTBwfQlrieX0AU=w5120-h2880-rw",
-      portfolioLink:"https://play.google.com/store/apps/details?id=com.magfi.magfi",
-      portfolioTitle:"Magfi: WhatsApp & Telegram Groups",
-      portfolioText:"Magfi helps you find groups in the most popular messaging and social media apps. You can either create and share your own group or join groups according to your interests.",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/meram.jpeg",
-      portfolioLink:"https://play.google.com/store/apps/details?id=com.devnet.meram",
-      portfolioTitle:"Meram Municipality",
-      portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
-    }
-  ];
+];
 
-  const PORTFOLIO_FRONTEND = [
-    {
-      portfolioImg:"/assets/images/portfolio/dijitalurun.jpeg",
-      portfolioTitle:"Dijital Urun for Gamers",
-      portfolioLink:"https://www.dijitalurun.com/",
-      portfolioText:"An e-commerce application that sells game coupons is a digital platform where customers can purchase coupons or digital codes for various games.",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/etkinlika.jpeg",
-      portfolioTitle:"Etkinlika - Digitan Event Application",
-      portfolioLink:"https://www.etkinlika.com/",
-      portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/umumdiesel.jpeg",
-      portfolioLink:"https://www.umumdiesel.com",
-      portfolioTitle:"Umum Diesel - Diesel Unit Pump Producer",
-      portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/hessan.jpeg",
-      portfolioLink:"https://www.hes-san.com/",
-      portfolioTitle:"Hessan - Manufacturer",
-      portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/giez.jpeg",
-      portfolioLink:"https://www.giez.com.tr/",
-      portfolioTitle:"Giez - Women Clothes",
-      portfolioText:"An e-commerce application is dedicated to selling a variety of women's clothing items, providing users with a convenient way to browse, purchase, and receive the latest fashion trends.",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/eurotel.jpeg",
-      portfolioLink:"https://www.eurotelconsulting.nl/",
-      portfolioTitle:"Eurotel Consulting Corporate",
-      portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
-    }
-  ];
-  PORTFOLIO_ALL = PORTFOLIO_ALL.concat(PORTFOLIO_MOBILE,PORTFOLIO_FRONTEND,/*PORTFOLIO_MARKETING*/)
+const PORTFOLIO_FRONTEND = [
+  {
+    portfolioImg:"/assets/images/portfolio/dijitalurun.jpeg",
+    portfolioTitle:"Dijital Urun for Gamers",
+    portfolioLink:"https://www.dijitalurun.com/",
+    portfolioText:"An e-commerce application that sells game coupons is a digital platform where customers can purchase coupons or digital codes for various games.",
+  },
+  {
+    portfolioImg:"/assets/images/portfolio/etkinlika.jpeg",
+    portfolioTitle:"Etkinlika - Digitan Event Application",
+    portfolioLink:"https://www.etkinlika.com/",
+    portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
+  },
+  {
+    portfolioImg:"/assets/images/portfolio/umumdiesel.jpeg",
+    portfolioLink:"https://www.umumdiesel.com",
+    portfolioTitle:"Umum Diesel - Unit Pump Producer",
+    portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
+  },
+  {
+    portfolioImg:"/assets/images/portfolio/hessan.jpeg",
+    portfolioLink:"https://www.hes-san.com/",
+    portfolioTitle:"Hessan - Manufacturer",
+    portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
+  },
+  {
+    portfolioImg:"/assets/images/portfolio/giez.jpeg",
+    portfolioLink:"https://www.giez.com.tr/",
+    portfolioTitle:"Giez - Women Clothes",
+    portfolioText:"An e-commerce application is dedicated to selling a variety of women's clothing items, providing users with a convenient way to browse, purchase, and receive the latest fashion trends.",
+  },
+  {
+    portfolioImg:"/assets/images/portfolio/eurotel.jpeg",
+    portfolioLink:"https://www.eurotelconsulting.nl/",
+    portfolioTitle:"Eurotel Consulting Corporate",
+    portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
+  }
+];
+
+PORTFOLIO_ALL = PORTFOLIO_ALL.concat(PORTFOLIO_FRONTEND,PORTFOLIO_MOBILE,/*PORTFOLIO_MARKETING*/)
 
 
 const Services = () => {

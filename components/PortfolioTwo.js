@@ -8,19 +8,13 @@ import PortfolioTwoItem from './PortfolioTwoItem';
  var PORTFOLIO_ALL = []
   const PORTFOLIO_MOBILE = [
     {
-      portfolioImg:"https://i.ytimg.com/vi/qjzMsJmggUc/hqdefault.jpg",
+      portfolioImg:"/assets/images/portfolio/flexport.jpeg",
       portfolioLink:"https://play.google.com/store/apps/details?id=net.flexport.alpha&hl=en",
       portfolioTitle:"Flex-Port for Panasonic Turkey",
       portfolioText:"The FlexPort Portal, which we have brought to life with the motto of “People before products”, is a professional platform where some fringe benefits and awards offered to you by our company are used through the portal through points. FlexPort World of Opportunities category, on the other hand, enables our employees and their families to benefit from more than 5000 products with special discounts.",
     },
     {
-      portfolioImg:"https://i.ytimg.com/vi/s_uuGQJNOek/hqdefault.jpg",
-      portfolioLink:"https://play.google.com/store/apps/details?id=net.panaport.alpha",
-      portfolioTitle:"Viko-Port for Panasonic Turkey",
-      portfolioText:"As Panasonic Electric Works Turkey, the innovative and leading company in its sector, we add light and value to life with our products and solutions that provide comfort, security and energy efficiency, and aim to offer a better and more comfortable 'life' with human-oriented approaches. We consider contributing to the \"happiness\" and \"satisfaction\" of our valued customers as our main priority in all the activities we carry out for our sector, and we strive to realize practices that exceed customer expectations.",
-    },
-    {
-      portfolioImg:"https://play-lh.googleusercontent.com/ZUaj1zEZPW69iD18F_ztiB6IwGUtFZxdtZA-peLaSf9hW3ltrSBUfxTBwfQlrieX0AU=w5120-h2880-rw",
+      portfolioImg:"/assets/images/portfolio/magfi.jpeg",
       portfolioLink:"https://play.google.com/store/apps/details?id=com.magfi.magfi",
       portfolioTitle:"Magfi: WhatsApp & Telegram Groups",
       portfolioText:"Magfi helps you find groups in the most popular messaging and social media apps. You can either create and share your own group or join groups according to your interests.",
@@ -30,36 +24,15 @@ import PortfolioTwoItem from './PortfolioTwoItem';
       portfolioLink:"https://play.google.com/store/apps/details?id=com.devnet.meram",
       portfolioTitle:"Meram Municipality",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
+    },
+    {
+      portfolioImg:"/assets/images/portfolio/qrcode.jpeg",
+      portfolioLink:"#",
+      portfolioTitle:"QR Code Generator",
+      portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     }
+
   ];
-
-
-  // const PORTFOLIO_MARKETING = [
-  //   {
-  //     portfolioImg:"/assets/images/portfolio/p-1.jpg",
-  //     portfolioLink:"/single-portfolio",
-  //     portfolioTitle:"UI/UX Design",
-  //     portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
-  //   },
-  //   {
-  //     portfolioImg:"/assets/images/portfolio/p-2.jpg",
-  //     portfolioLink:"/single-portfolio",
-  //     portfolioTitle:"Web Development",
-  //     portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
-  //   },
-  //   {
-  //     portfolioImg:"/assets/images/portfolio/p-4.jpg",
-  //     portfolioLink:"/single-portfolio",
-  //     portfolioTitle:"Digital Marketing",
-  //     portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
-  //   },
-  //   {
-  //     portfolioImg:"/assets/images/portfolio/p-6.jpg",
-  //     portfolioLink:"/single-portfolio",
-  //     portfolioTitle:"Digital Marketing",
-  //     portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
-  //   }
-  // ];
 
 const PORTFOLIO_FRONTEND = [
     {
@@ -77,7 +50,7 @@ const PORTFOLIO_FRONTEND = [
     {
       portfolioImg:"/assets/images/portfolio/umumdiesel.jpeg",
       portfolioLink:"https://www.umumdiesel.com",
-      portfolioTitle:"Umum Diesel - Diesel Unit Pump Producer",
+      portfolioTitle:"Umum Diesel - Unit Pump Producer",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
@@ -100,7 +73,7 @@ const PORTFOLIO_FRONTEND = [
     }
   ];
 
-  PORTFOLIO_ALL = PORTFOLIO_ALL.concat(PORTFOLIO_MOBILE,PORTFOLIO_FRONTEND,/*PORTFOLIO_MARKETING*/)
+  PORTFOLIO_ALL = PORTFOLIO_ALL.concat(PORTFOLIO_FRONTEND,PORTFOLIO_MOBILE,/*PORTFOLIO_MARKETING*/)
 
 
 const PortfolioTwo = ({extraClass}) => {
