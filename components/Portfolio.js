@@ -15,7 +15,7 @@ const PORTFOLIO_MOBILE = [
   },
   {
     portfolioImg:"/assets/images/portfolio/magfi.jpeg",
-    portfolioLink:"https://play.google.com/store/apps/details?id=com.magfi.magfi",
+    portfolioLink:"https://apps.apple.com/tr/app/magfi/id1501865254",
     portfolioTitle:"Magfi: WhatsApp & Telegram Groups",
     portfolioText:"Magfi helps you find groups in the most popular messaging and social media apps. You can either create and share your own group or join groups according to your interests.",
   },
