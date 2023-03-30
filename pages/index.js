@@ -21,7 +21,7 @@ const HomeOne = () => {
         <Hero/>      
         <About subTitle="About Us"
         titleFirst="We are here to make your"
-        titleSecond="product look more elegant and stylish"
+        titleSecond="product more professional"
         />   
         <Services extraClass="mt-75"/>      
         <Facts/>      

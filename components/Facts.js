@@ -27,24 +27,25 @@ const Facts = () => {
                                 <div className="facts__content-text">
                                     <SectionTitle subTitle="Facts To Know"
                                     titleFirst="Our project will help"
-                                    titleSecond="you standout"
-                                    />                                    
-                                    <p>The carbon in our apple pies extraordinary claims require extraord evidence permanence of the stars kindling the energy hidden in matter from which we spring emerged.</p>
+                                    titleSecond="you streamline"
+                                    />  
+                                    <p>your business processes and improve efficiency. Our IT solutions are tailored to meet your specific needs, providing customized solutions that address your pain points and help you achieve your goals. With our expertise in mobile and web development, as well as cyber security, we can help your business stay ahead of the competition and succeed in today's ever-evolving digital landscape. Trust us to help you achieve your business objectives – contact us today.</p>                                  
+                                    {/* <p>The carbon in our apple pies extraordinary claims require extraord evidence permanence of the stars kindling the energy hidden in matter from which we spring emerged.</p> */}
                                 </div>
                                 <div className="facts__counter-content d-flex">
                                     <div className="facts__counter-text">
                                         <h2>
-                                            <CountUp end={2} duration={5} />K
+                                            <CountUp end={100} duration={2} />+
                                         </h2>
-                                        <h5>Project Delivered</h5>
-                                        <p>Preserve and cherish that pale blue dot star stuff.</p>
+                                        <h5>Projects done</h5>
+                                        <p>50+ Company</p>
                                     </div>
                                     <div className="facts__counter-text">
                                         <h2>
-                                            <CountUp end={5} duration={5} />M
+                                            <CountUp end={500} duration={2} />K
                                         </h2>
-                                        <h5>Total Revinue</h5>
-                                        <p>The carbon in our appies event not nosunrise.</p>
+                                        <h5>People reached</h5>
+                                        <p>totally in the markets</p>
                                     </div>
                                 </div>
                             </div>

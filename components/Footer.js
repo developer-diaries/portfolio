@@ -16,8 +16,9 @@ const Footer = () => {
                         <Col xl={4} lg={4} md={10} sm={10}>
                             <div className="footer__widget wow fadeIn" data-wow-delay=".5s">
                                 <div className="footer__widget-logo">
-                                    {/* <img src="assets/images/logo/Logo-footer.svg" alt="logo" /> */}
-                                    <p>Core object made kolor adipisci elit sed diam nonummy nibh euismod tincidunt laoreet dolore magna grinjon.</p>
+                                    {/* <img src="assets/images/logo/logo.svg" alt="logo" /> */}
+                                    <p>We specialize in mobile and web development, and cyber security. Our experienced team delivers high-quality solutions that keep you ahead of the competition.</p>
+                                    <p>We prioritize collaboration and transparency, building strong relationships with our clients for successful outcomes.</p>
                                 </div>
                                 <div className="footer__widget-social">
                                     <Link href="#">
