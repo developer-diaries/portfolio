@@ -36,7 +36,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={2} lg={2} md={4} sm={6}>
+                        {/* <Col xl={4} lg={2} md={4} sm={6}>
                             <div className="footer__widget">
                                 <div className="footer__widget-title">
                                     <h5>Our Services</h5>
@@ -44,35 +44,40 @@ const Footer = () => {
                                 <div className="footer__widget-link">
                                     <ul>
                                         <li>
-                                            <Link href="/services-details">
-                                                <a>Development</a>
+                                            <Link href="#">
+                                                <a>Big Data Analytics</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details">
-                                                <a>marketing</a>
+                                            <Link href="#">
+                                                <a>Cyber Security</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details">
+                                            <Link href="#">
                                                 <a>UI/UX Design</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details">
-                                                <a>E-commerce</a>
+                                            <Link href="#">
+                                                <a>Web Application w/ NextJS</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details">
-                                                <a>Content Writing</a>
+                                            <Link href="#">
+                                                <a>Mobile Application w/ Flutter</a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">
+                                                <a>Quality Assurance and Testing</a>
                                             </Link>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                        </Col>
-                        <Col xl={2} lg={2} md={4} sm={6}>
+                        </Col> */}
+                        <Col xl={4} lg={2} md={4} sm={6}>
                             <div className="footer__widget footer__widget-mt-2">
                                 <div className="footer__widget-title">
                                     <h5>Company</h5>
